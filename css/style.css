@@ -45,7 +45,7 @@ body {
 /* hero section end */
 
 /* how we are section start */
-.how_we_are .row .card {
+.how_we_are .row .fit_card {
   border-bottom-right-radius: 35px !important;
   border-top-left-radius: 35px !important;
   border: 0;
@@ -53,7 +53,7 @@ body {
   position: relative;
   transform: translateY(-20%);
 }
-.how_we_are .row .card:hover {
+.how_we_are .row .fit_card:hover {
   background-image: url("../img/card.jfif");
   background-repeat: no-repeat;
   background-size: cover;
