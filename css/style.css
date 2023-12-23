@@ -60,4 +60,9 @@ body {
   background-position: center center;
   color: white;
 }
+.how_we_are {
+  background-image: url("../img/background.83bcfae77cd8ae9f6a48.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* how we are section end */
