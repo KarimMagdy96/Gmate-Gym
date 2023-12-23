@@ -65,4 +65,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* how we are section end */
+.how_we_are_title {
+  background-image: url("../img/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg");
+  width: fit-content;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* how we are section end */
+}
