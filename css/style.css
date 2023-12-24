@@ -111,15 +111,23 @@ body {
   filter: grayscale(0);
   transform: scale(110%);
 }
-.grid_card_box::after {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: -19px;
-  width: 104px;
-  height: 119px;
-  transform: rotate(117deg);
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
+
+.box-icon {
   background-color: hsla(0, 0%, 100%, 0.3);
+  width: 180px;
+  height: 80px;
+}
+.box-icon i {
+  transition: all 0.5s;
+}
+.grid_card_box:hover .box-icon i {
+  color: red;
+}
+@media only screen and (max-width: 767px) {
+  .grid_card_box:nth-child(1) {
+    grid-column: unset;
+  }
+  .grid_card_box:nth-child(6) {
+    grid-column: unset;
+  }
 }
