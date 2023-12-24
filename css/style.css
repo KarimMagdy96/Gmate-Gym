@@ -78,7 +78,8 @@ body {
   top: 30%;
   width: 15%;
 }
-.featured {
+.featured,
+.why_us {
   padding: 125px 0;
 }
 .grid_container {
@@ -128,6 +129,7 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
 @media only screen and (max-width: 767px) {
   .grid_card_box:nth-child(1) {
     grid-column: unset;
