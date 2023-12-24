@@ -28,7 +28,8 @@ body {
   background-repeat: no-repeat;
   background-image: url("../img/hero-img.40c8355a31f73340b733.jpg");
 }
-.hero_section .hero_layer .hero_content div {
+.hero_section .hero_layer .hero_content div,
+.featured_title {
   background-image: url("../img/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg");
   width: fit-content;
   background-position: center center;
