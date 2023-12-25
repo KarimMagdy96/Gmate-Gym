@@ -208,6 +208,74 @@ body {
 .card_body_trainer:hover:after {
   transform: scaleX(4.5);
 }
+.testomnial_item {
+}
+.cst_control_prev {
+  right: 200px !important;
+  left: unset !important;
+  background-color: black;
+  color: white;
+  padding: 10px !important;
+}
+
+element.style {
+}
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.cst_control_prev {
+  right: 54px !important;
+  left: unset !important;
+  background-color: black;
+  color: white;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: unset;
+  background-color: black !important;
+  bottom: -9%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6%;
+  padding: 10px !important;
+
+  color: #fff;
+  text-align: center;
+  border: 0;
+  opacity: 1 !important;
+  transition: opacity 0.15s ease;
+}
+.carousel-control-next {
+  right: -20px !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  bottom: -7% !important;
+  background-color: white !important;
+
+  transition: opacity 0.15s ease;
+}
+.carosel_layer img {
+  max-width: 60px;
+  max-height: 50px;
+}
 @media only screen and (max-width: 767px) {
   .grid_card_box:nth-child(1) {
     grid-column: unset;
