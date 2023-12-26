@@ -316,6 +316,11 @@ button:not(:disabled) {
   max-width: 37rem;
   max-height: 12.5rem;
 }
+.calculate_bim {
+  background-image: url("../img/background.1fed62fab703bff0845d.jpg");
+  background-position: center center;
+  background-size: cover;
+}
 @media only screen and (max-width: 767px) {
   .grid_card_box:nth-child(1) {
     grid-column: unset;
