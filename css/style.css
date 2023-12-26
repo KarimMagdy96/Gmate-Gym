@@ -84,7 +84,8 @@ body {
 .featured,
 .why_us,
 .trainers,
-.testmonials {
+.testmonials,
+.gallary {
   padding: 125px 0;
 }
 .grid_container {
@@ -236,7 +237,7 @@ button:not(:disabled) {
   cursor: pointer;
 }
 .cst_control_prev {
-  right: 54px !important;
+  right: 65px !important;
   left: unset !important;
   background-color: black;
   color: white;
@@ -253,22 +254,22 @@ button:not(:disabled) {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 6%;
+  width: unset !important;
   padding: 10px !important;
 
-  color: #fff;
+  color: black !important;
   text-align: center;
   border: 0;
   opacity: 1 !important;
   transition: opacity 0.15s ease;
 }
 .carousel-control-next {
-  right: -20px !important;
+  right: -10px !important;
 }
 .carousel-control-next,
 .carousel-control-prev {
-  bottom: -7% !important;
-  background-color: white !important;
+  bottom: -2% !important;
+  background-color: #dc3545 !important;
 
   transition: opacity 0.15s ease;
 }
@@ -276,11 +277,60 @@ button:not(:disabled) {
   max-width: 60px;
   max-height: 50px;
 }
+.carousel::after {
+  content: "";
+  width: 305px;
+  height: 370px;
+  background-image: url("../img/testimonial-new.4d49a58e5ec2cf3ec91a.jpg");
+  background-position: top center;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0px;
+  left: -28px;
+
+  border-top-right-radius: 200px;
+}
+.company img {
+  opacity: 0.4;
+  transition: all 0.3s;
+}
+.company img:hover {
+  opacity: 1;
+}
+.gallary::after {
+  content: url("../img/download\ \(18\).png");
+  position: absolute;
+  top: 0;
+  margin: 10px;
+  right: 0;
+}
+.big_img img {
+  max-width: 37rem;
+  max-height: 25.5rem;
+}
+.hafe_big img {
+  max-width: 18.3rem;
+  max-height: 12.5rem;
+}
+.spiecal_img img {
+  max-width: 37rem;
+  max-height: 12.5rem;
+}
 @media only screen and (max-width: 767px) {
   .grid_card_box:nth-child(1) {
     grid-column: unset;
   }
   .grid_card_box:nth-child(6) {
     grid-column: unset;
+  }
+  .carosel_p,
+  .carosel_p_title,
+  .carosel_p_sub {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .carousel::after {
+    display: none;
   }
 }
