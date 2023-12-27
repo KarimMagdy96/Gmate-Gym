@@ -61,7 +61,8 @@ body {
   background-position: center center;
   color: white;
 }
-.how_we_are {
+.how_we_are,
+.pricing {
   background-image: url("../img/background.83bcfae77cd8ae9f6a48.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,7 +86,8 @@ body {
 .why_us,
 .trainers,
 .testmonials,
-.gallary {
+.gallary,
+.pricing {
   padding: 125px 0;
 }
 .grid_container {
@@ -140,6 +142,7 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
 .why_us_img_layer::before {
   content: "";
   width: 14px;
@@ -320,6 +323,32 @@ button:not(:disabled) {
   background-image: url("../img/background.1fed62fab703bff0845d.jpg");
   background-position: center center;
   background-size: cover;
+}
+.pricing::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  z-index: -1;
+  content: url("../img/download\ \(19\).png");
+}
+.pricing::before {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px;
+  z-index: -1;
+  content: url("../img/download\ \(20\).png");
+}
+.pricing {
+  z-index: 1;
+}
+.light_card img {
+  filter: grayscale(1);
+  transition: all 0.3s;
+}
+.light_card:hover img {
+  filter: grayscale(0);
 }
 @media only screen and (max-width: 767px) {
   .grid_card_box:nth-child(1) {
