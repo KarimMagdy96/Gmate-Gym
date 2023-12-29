@@ -18,6 +18,16 @@ body {
   background-color: #b30000;
   border-radius: 20px;
 }
+.featured,
+.why_us,
+.trainers,
+.testmonials,
+.gallary,
+.pricing,
+.blog {
+  padding: 125px 0;
+}
+
 /* hero section start */
 
 .hero_section {
@@ -43,6 +53,25 @@ body {
 .hero_social {
   writing-mode: vertical-rl;
 }
+.main_btn {
+  position: relative;
+  transform-style: preserve-3d;
+}
+.main_btn::after {
+  content: "";
+  position: absolute;
+  transform: translateZ(-1px);
+  width: 100%;
+  height: 100%;
+  border: 1px solid hsla(0, 0%, 100%, 0.362);
+  top: -12px;
+  left: 12px;
+  transition: all 0.5s;
+}
+.main_btn:hover::after {
+  top: 0;
+  left: 0;
+}
 /* hero section end */
 
 /* how we are section start */
@@ -61,6 +90,9 @@ body {
   background-position: center center;
   color: white;
 }
+.how_we_are_body_card .main_btn::after {
+  border: 1px solid #3333337a;
+}
 .how_we_are,
 .pricing {
   background-image: url("../img/background-1.jpg");
@@ -73,7 +105,6 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  /* how we are section end */
 }
 .runing_img {
   top: 30%;
@@ -82,15 +113,10 @@ body {
 .how_we_are_content {
   padding-bottom: 80px;
 }
-.featured,
-.why_us,
-.trainers,
-.testmonials,
-.gallary,
-.pricing,
-.blog {
-  padding: 125px 0;
-}
+
+/* how we are section end */
+
+/* featured section start */
 .grid_container {
   display: grid;
   justify-content: center;
@@ -133,6 +159,10 @@ body {
 .grid_card_box:hover .box-icon i {
   color: red;
 }
+
+/* featured section end */
+
+/* why_choose_us section start */
 .service {
   background-image: url("../img/section-img.png");
   background-size: cover;
@@ -164,6 +194,9 @@ body {
   left: -45px;
   position: absolute;
 }
+
+/* why_choose_us section end */
+/* trainers section start */
 .trainers {
   background-image: url("../img/background-2.png");
 }
@@ -213,6 +246,10 @@ body {
 .card_body_trainer:hover:after {
   transform: scaleX(4.5);
 }
+
+/* trainers section end */
+
+/* testmonials section start */
 .testomnial_item {
 }
 .cst_control_prev {
@@ -301,6 +338,10 @@ button:not(:disabled) {
 .company img:hover {
   opacity: 1;
 }
+
+/* testmonials section end */
+
+/* our gallary section start */
 .gallary::after {
   content: url("../img/back-img-2.png");
   position: absolute;
@@ -320,11 +361,19 @@ button:not(:disabled) {
   max-width: 37rem;
   max-height: 12.5rem;
 }
+
+/* our gallary section end */
+
+/* bim section start */
 .calculate_bim {
   background-image: url("../img/section-bg.jpg");
   background-position: center center;
   background-size: cover;
 }
+/* bim section end */
+
+/* pricing section start */
+
 .pricing::after {
   position: absolute;
   top: 0;
@@ -351,14 +400,25 @@ button:not(:disabled) {
 .light_card:hover img {
   filter: grayscale(0);
 }
+
+/* pricing section end */
+
+/* blog section start */
 .date {
   width: fit-content;
 }
+/* blog section end */
+
+/* call now section start  */
 .call_now {
   background-image: url("../img/section-bg-2.jpg");
   background-position: center center;
   background-size: cover;
 }
+
+/* call now section end  */
+
+/* footer start */
 .social_footer {
   width: fit-content;
 }
@@ -373,6 +433,9 @@ button:not(:disabled) {
 footer {
   padding: 100px 25px 30px 25px;
 }
+/* footer end */
+
+/* responsive view */
 @media only screen and (max-width: 767px) {
   .grid_card_box:nth-child(1) {
     grid-column: unset;
