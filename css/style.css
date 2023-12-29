@@ -27,7 +27,12 @@ body {
 .blog {
   padding: 125px 0;
 }
+/* nav bar start */
+.nav_items .nav-item a:hover {
+  color: #e74a34;
+}
 
+/* nav bar end */
 /* hero section start */
 
 .hero_section {
@@ -173,7 +178,12 @@ body {
   background-size: cover;
   background-position: center center;
 }
-
+.sub_logo {
+  transition: all 0.5s;
+}
+.sub_logo:hover {
+  background-color: red !important;
+}
 .why_us_img_layer::before {
   content: "";
   width: 14px;
