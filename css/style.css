@@ -26,7 +26,7 @@ body {
   background-position: 45% center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../img/hero-img.40c8355a31f73340b733.jpg");
+  background-image: url("../img/hero-img.jpg");
 }
 .hero_section .hero_layer .hero_content div,
 .featured_title {
@@ -55,7 +55,7 @@ body {
   transform: translateY(-20%);
 }
 .how_we_are .row .fit_card:hover {
-  background-image: url("../img/card.jfif");
+  background-image: url("../img/card.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -63,7 +63,7 @@ body {
 }
 .how_we_are,
 .pricing {
-  background-image: url("../img/background.83bcfae77cd8ae9f6a48.jpg");
+  background-image: url("../img/background-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -134,7 +134,7 @@ body {
   color: red;
 }
 .service {
-  background-image: url("../img/cta-bg.0bd0c066aa8b6eac570c.png");
+  background-image: url("../img/section-img.png");
   background-size: cover;
   background-position: center center;
 }
@@ -165,10 +165,10 @@ body {
   position: absolute;
 }
 .trainers {
-  background-image: url("../img/download (1).png");
+  background-image: url("../img/background-2.png");
 }
 .trainers::after {
-  content: url("../img/download\ \(2\).png");
+  content: url("../img/back-img-1.png");
   position: absolute;
   top: 0;
   right: 0;
@@ -183,7 +183,7 @@ body {
   filter: grayscale(0);
 }
 .trainer_img_layer {
-  background-image: url("../img/trainer-bg.d8a91ceec330444b6dfd.png");
+  background-image: url("../img/trainer-bg.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -285,7 +285,7 @@ button:not(:disabled) {
   content: "";
   width: 305px;
   height: 370px;
-  background-image: url("../img/testimonial-new.4d49a58e5ec2cf3ec91a.jpg");
+  background-image: url("../img/testimonials.jpg");
   background-position: top center;
   object-fit: cover;
   position: absolute;
@@ -302,7 +302,7 @@ button:not(:disabled) {
   opacity: 1;
 }
 .gallary::after {
-  content: url("../img/download\ \(18\).png");
+  content: url("../img/back-img-2.png");
   position: absolute;
   top: 0;
   margin: 10px;
@@ -321,7 +321,7 @@ button:not(:disabled) {
   max-height: 12.5rem;
 }
 .calculate_bim {
-  background-image: url("../img/background.1fed62fab703bff0845d.jpg");
+  background-image: url("../img/section-bg.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -331,7 +331,7 @@ button:not(:disabled) {
   left: 0;
   margin: 20px;
   z-index: -1;
-  content: url("../img/download\ \(19\).png");
+  content: url("../img/back-img-3.png");
 }
 .pricing::before {
   position: absolute;
@@ -339,7 +339,7 @@ button:not(:disabled) {
   right: 0;
   margin: 0 10px;
   z-index: -1;
-  content: url("../img/download\ \(20\).png");
+  content: url("../img/back-img-4.png");
 }
 .pricing {
   z-index: 1;
@@ -355,7 +355,7 @@ button:not(:disabled) {
   width: fit-content;
 }
 .call_now {
-  background-image: url("../img/background.f24e8c4144bb6907ac96.jpg");
+  background-image: url("../img/section-bg-2.jpg");
   background-position: center center;
   background-size: cover;
 }
