@@ -11,22 +11,13 @@
 <h3>Build with:</h3>
 
 » HTML, CSS3
-» Bootstrap V5.3 , fontawesome library
+» Bootstrap V5.3 , font-awesome library
 
-<h2>Screenshots of the Project 📸</h2>
+<h2>Screenshot of the Project 📸</h2>
 <br>
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='#'/>
-
-</div>
-
-<br><br>
-<h3 align='center'>Classes Page 👇</h3>
-
-<div align='center'>
-<img src='https://user-images.githubusercontent.com/105128267/213878977-d98a7725-d615-48ed-b91d-5ebf7a6b049c.png'/>
-</div>
+<img src='https://i.imgur.com/uBtMreI.jpg'/>
 <br>
 <br>
