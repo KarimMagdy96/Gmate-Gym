@@ -250,11 +250,12 @@ body {
   height: 5px;
   background-color: red;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   transition: all 0.5s;
-  left: 41%;
 }
 .card_body_trainer:hover:after {
-  transform: scaleX(4.5);
+  width: 100px;
 }
 
 /* trainers section end */
